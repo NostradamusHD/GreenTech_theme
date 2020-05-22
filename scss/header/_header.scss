@@ -1,0 +1,123 @@
+.select_languaje{
+  max-width: 100px;
+  margin-bottom: 0;
+  padding: 0;
+  color: $blanco;
+  background: none !important;
+  border: none !important;
+  cursor: pointer;
+  font-weight: $w-light;
+  font-size: $fz-small;
+  &:focus{
+    box-shadow: none !important;
+  }
+  option{
+    color: $negro;
+  }
+}
+.menu_social{
+  color: $blanco;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  .correo_info{
+    font-size: $fz-small;
+    font-weight: $w-light;
+    padding: 0 1.5rem;
+    color: $blanco;
+    i{
+      margin-right: .5rem;
+      color: $blanco;
+    }
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    li{
+      padding-left: 1.5rem;
+      a{
+        font-size: $fz-small;
+        i{
+          color: $blanco;
+        }
+      }
+      &:nth-child(1){
+        border-left: 1px solid $blanco;
+      }
+    }
+  }
+}
+.menu_header{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  li{
+    a{
+      color: $blanco;
+      font-size: $fz-small;
+      font-weight: $w-regular;
+      margin: 0 1rem;
+    }
+  }
+  .button{
+    margin-bottom: 0;
+    margin-left: 1rem;
+    i{
+      margin-right: .4rem;
+      color: $blanco;
+    }
+  }
+  &.menu_white{
+    li{
+      a{
+        color: $negro;
+        transition: all .3s;
+        &:hover{
+          color: $color-primario;
+        }
+        &.activo{
+          color: $color-primario;
+          font-weight: $w-bold;
+        }
+      }
+    }
+  }
+}
+.caption_header{
+  color: $blanco;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-20%);
+  .h1{
+    color: $blanco;
+    text-transform: uppercase;
+  }
+  .text {
+    font-weight: $w-light;
+    font-size: $fz-medium;
+    color: $blanco;
+  }
+  .button_caption{
+    background: $blanco;
+    color: $negro;
+    font-weight: $w-bold !important;
+    font-size: 12pt;
+    border-radius: 50px;
+    padding: .8rem 3rem;
+    margin-top: 1.5rem;
+    transition: all .3s;
+    &:hover{
+      background: rgba(255,255,255,.80)
+    }
+  }
+}
+

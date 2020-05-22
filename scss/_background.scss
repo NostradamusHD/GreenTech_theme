@@ -1,0 +1,40 @@
+.bg_image_fullwidth{
+  background: linear-gradient(rgba(0, 68, 36, 0.51), rgba(0, 68, 36, 0.51)), url("../images/bg-image-1.png");
+  background-size: cover;
+  height: 100vh;
+}
+.bg_image_2{
+  background: linear-gradient(rgba(240, 177, 14, 0.85), rgba(240, 177, 14, 0.85)), url("../images/home-image-2.png");
+  background-size: cover;
+}
+.bg_image_3{
+  background: linear-gradient(rgba($color: $color-primario, $alpha: 0.85), rgba($color: $color-primario, $alpha: 0.85)), url("../images/home-image-3.png");
+  background-size: cover;
+}
+.bg_image_4{
+  background: linear-gradient(72.12deg, rgba(24, 165, 11, 0.81) 28.3%, rgba(0, 68, 36, 0.81) 71.38%), url("../images/impact-image-1.png");
+  background-size: cover;
+  height: 252px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1{
+    color: $blanco;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+  }
+}
+.bg_image_5{
+  background: linear-gradient(rgba(240, 177, 14, 0.85), rgba(240, 177, 14, 0.85)), url("../images/home-image-2.png");
+  background-size: cover;
+}
+.bg_primary{
+  background: $color-primario;
+}
+.bg_gray{
+  background: #F7F7F7;
+}
+
